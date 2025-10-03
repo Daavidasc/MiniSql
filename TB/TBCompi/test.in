@@ -1,0 +1,4 @@
+CREATE TABLE alumnos (int id, varchar (5) nombre, boolean activo);
+INSERT INTO alumnos VALUES (1, 'Juan', true), (2, 'Maria', false);
+SELECT id, nombre FROM alumnos;
+SELECT * FROM alumnos;
